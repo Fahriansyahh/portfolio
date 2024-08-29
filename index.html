@@ -39,9 +39,9 @@
 </head>
 <body>
   <!-- navbar -->
-    <nav  class= " fixed  w-full bg-blue-600   border-gray-200  z-50" >
+    <nav  class= " fixed  w-full bg-blue-600   border-gray-200 sm:py-0  py-2 z-50" >
       
-        <div class="relative  z-10 max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-1 text-sm ">
+        <div class="relative  z-10 max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto  text-sm ">
           
         <div class="w-1/4 h-full sm:relative z-10 sm:ml-5">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -59,9 +59,9 @@
           </button>
           
           <div class="hidden w-full md:block md:w-auto  pb-5" id="navbar-dropdown">
-          <hr class="border-2 mt-2 sm:hidden">  
+          <hr class="border-2 mt-2 sm:hidden ">  
           
-            <ul class="mx-auto sm:mx-0  flex flex-col relative z-10 top-2  font-medium  md:p-0  sm:mt-4 border  rounded-lg md:space-x-2 w-3/4 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 sm:bg-transparent sm:mr-6 divide-y sm:divide-none  divide-blue-100 font-lato " style="opacity: 0.9;">
+            <ul class="mx-auto sm:mx-0  flex flex-col relative z-10 top-4  font-medium  md:p-0  sm:mt-4 border  rounded-lg md:space-x-2 w-3/4 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 sm:bg-transparent sm:mr-6 divide-y sm:divide-none  divide-blue-100 font-lato " style="opacity: 0.9;">
               <li class="hover:bg-blue-700 sm:hover:bg-transparent  rounded-lg group">
                 <a href="#tentang" class="block py-2 px-2 text-white rounded group-hover:text-white " aria-current="page">Home</a>
               </li>
@@ -98,23 +98,21 @@
 
           <!-- about -->
             <div class="container col-span-1 sm:col-span-2  grid content-start justify-start px-5 sm:mx-10  ">
-            <div class=" sm:bg-white sm:grid sm:grid-cols-1 w-fit  sm:p-3 sm:rounded-r-full sm:items-center sm:pr-5">  
+            <div class=" sm:bg-white sm:grid sm:grid-cols-1 w-fit  sm:p-3 sm:rounded-r-full sm:items-center sm:pr-5 mt-14 mt:0">  
             <h1 class="font-lato text-2xl sm:text-3xl mt-2 sm:mt-0 w-fit font-bold bg-gradient-to-r  from-slate-500 via-slate-700 to-slate-800 text-transparent bg-clip-text sm:mx-auto " >Muhammad Fahriansyah</h1>
             <h4 class=" sm:text-lg text-sm font-bold  w-full font-arial sm:font-lato italic bg-gradient-to-r inline-block text-transparent bg-clip-text text-left sm:text-center   from-slate-500 via-slate-700 to-slate-800"> Web Developer</h4>
             </div>
-            <hr class="border-0 pt-1 bg-gradient-to-r from-slate-800  to-white inline-block ">
-            <div class="sm:px-10 sm:bg-white sm:p-10 sm:rounded-r-full sm:mr-10 inset-shadow-right">
-              <p class="mt-2 overflow-auto h-24 sm:h-fit text-sm grid grid-cols-1 sm:grid-cols-2 gap-2 divide-x divide-gray-300">
+            <hr class="border-0 pt-1 bg-gradient-to-r from-slate-800  to-white hidden sm:block" >
+            <div class="sm:px-10 sm:bg-white sm:p-10 sm:rounded-r-full sm:mr-10 inset-shadow-right absolute top-64 sm:relative sm:top-0 mr-4 ">
+              <p class="mt-2  h-24 sm:h-fit text-sm grid grid-cols-1 sm:grid-cols-2 gap-2 sm:divide-x divide-gray-300">
                 <span class="pr-2 text-sm ">Hallo, Perkenalkan, saya Muhammad Fahriansyah, berusia 21 tahun, Saya adalah seorang Mahasiswa Teknik Informatika yang berpengetahuan di bidang bahasa Pemograman PHP dan JavaScript</span>
-                <span class="pl-2">
+                <span class="sm:pl-2">
                Saya Juga Memiliki Pengetahuan di bidang instalasi Software Pemahaman hardware,serta dapat bekerja dengan sistem operasi Windows atau Linux Saya juga mahir dalam menggunakan Miscrosoft Word dan Excel
                 </span>
             </p>
             
           </div>
-          
-          </span>
-            </div>
+          </div>
 
 
              <!--image fahriansyah  -->
@@ -128,7 +126,7 @@
         </article>
      
         <!-- article pendiikan  -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="-mb-2 sm:hidden" viewBox="0 0 1440 320" >
+        <svg xmlns="http://www.w3.org/2000/svg" class="-mb-2 sm:hidden mt-40" viewBox="0 0 1440 320" >
           <path fill="rgb(37 99 235)" fill-opacity="1" d="M0,64L26.7,80C53.3,96,107,128,160,117.3C213.3,107,267,53,320,53.3C373.3,53,427,107,480,117.3C533.3,128,587,96,640,122.7C693.3,149,747,235,800,256C853.3,277,907,235,960,213.3C1013.3,192,1067,192,1120,181.3C1173.3,171,1227,149,1280,149.3C1333.3,149,1387,171,1413,181.3L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
         </svg>
         <article class="flex justify-center mt-0 sm:mt-20 bg-blue-600 py-2 pt-10" id="pendidikan">
